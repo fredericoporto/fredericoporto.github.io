@@ -273,11 +273,11 @@ p { color: var(--gray-600); }
   display: block;
   -webkit-mask-image:
     linear-gradient(to right,  transparent 0%, black 30%, black 70%, transparent 100%),
-    linear-gradient(to bottom, transparent 0%, black 18%, black 78%, transparent 100%);
+    linear-gradient(to bottom, transparent 0%, black 4%, black 72%, transparent 100%);
   -webkit-mask-composite: destination-in;
   mask-image:
     linear-gradient(to right,  transparent 0%, black 30%, black 70%, transparent 100%),
-    linear-gradient(to bottom, transparent 0%, black 18%, black 78%, transparent 100%);
+    linear-gradient(to bottom, transparent 0%, black 4%, black 72%, transparent 100%);
   mask-composite: intersect;
 }
 
@@ -674,6 +674,35 @@ p { color: var(--gray-600); }
 .contato-card-horario span { font-size: 0.85rem; color: var(--gray-600); }
 
 .contato-card .btn-whatsapp-local { margin-top: auto; width: 100%; justify-content: center; }
+
+.contato-instagram {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.btn-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: opacity var(--transition), transform var(--transition);
+}
+.btn-instagram:hover { opacity: 0.88; transform: translateY(-2px); }
+
+.footer-instagram {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9rem;
+  transition: color var(--transition);
+}
+.footer-instagram:hover { color: #fff; }
 
 /* ===== FOOTER ===== */
 .footer {
