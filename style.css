@@ -676,6 +676,7 @@ p { color: var(--gray-600); }
 }
 .contato-card-horario strong { display: block; font-size: 0.9rem; color: var(--navy); font-weight: 600; margin-bottom: 4px; }
 .contato-card-horario span { font-size: 0.85rem; color: var(--gray-600); }
+.contato-card-horario .dia { font-size: 0.9rem; color: var(--navy); font-weight: 600; }
 
 .contato-card .btn-whatsapp-local { margin-top: auto; width: 100%; justify-content: center; }
 
